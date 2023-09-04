@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Josefin+Sans:wght@500&family=Poppins:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+   }
+
+  /* Base Styles for Header Section */
+.header_section {
+    background-color: #333333e7; /* Set the background color for the header */
+    color: #fff; /* Set the text color for the header content */
+    padding: 20px 0;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    margin-left: 5px;
+    max-height: 50px; /* Set the maximum height for the logo image */
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 0; /* Remove default padding from the navbar */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Set the background color for the toggler icon */
+}
+
+.navbar-nav {
+    margin-top: 10px; /* Add spacing above the navigation items */
+}
+
+.nav-item {
+    margin-right: 30px; /* Add spacing between navigation items */
+}
+
+.nav-link {
+    color:white;
+    text-transform: uppercase; /* Convert text to uppercase */
+    font-weight: 600; /* Apply bold font weight to navigation links */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    color: #0a24eb; /* Change the text color on hover */
+}
+
+/* Login and Search Buttons */
+.login_bt ul {
+    list-style: none;
+    padding: 0;
+    margin:0;
+    font-size: 25px; 
+}
+
+.login_bt ul li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.login_bt ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.user_icon i {
+    margin-right: 5px; /* Add spacing to the right of the user icon */
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-top: 0; /* Remove margin on smaller screens */
+    }
+
+    .nav-item {
+        margin-right: 10px; /* Adjust spacing between navigation items */
+    }
+
+    .login_bt ul li {
+        margin-right: 10px; /* Adjust spacing for login and search buttons */
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler-icon {
+        background-color: #2b87f0; /* Change toggler icon color on smaller screens */
+    }
+}
+
+/* Base Styles for Coffee Section */
+.coffee_section {
+    background-color: #ca5c21; /* Set the background color for the coffee section */
+    color: #333; /* Set the text color for the coffee content */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.coffee_taital {
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(229, 222, 222);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bulit_icon img {
+ /* Set the maximum width for the icon image */
+    padding: 0px;
+    height: 500px;
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+/* Coffee Item Styles */
+
+.carousel-item {
+    background-color: #f7c7c7; /* Set the background color for the carousel item */
+   /* Add some padding for spacing */
+    margin-top: 5vh;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Styles for the coffee item columns */
+.col-lg-3 {
+    padding: 10px; /* Add spacing between columns */
+    margin-top: 5px;
+}
+
+    .coffee_img img{
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+      }
+
+    .types_text {
+        font-size: 24px; /* Set the font size for the headings */
+        color: #130202; /* Set the text color */
+        margin-top: 10px; /* Add spacing above the heading */
+        font-weight: 600;
+    }
+
+.looking_text {
+    font-size: 16px;
+    color: #0e0101; /* Set the text color */
+    margin-top: 10px; /* Add spacing below the coffee description */
+}
+
+.read_bt a {
+    text-decoration: none; /* Remove the underline from the link */
+    background-color: #120a68; /* Set the background color for the button */
+    color: #fff; /* Set the text color for the button */
+    padding: 5px 10px; /* Add padding to the button */
+    border-radius: 5px; /* Round the corners of the button */
+    display: inline-block; /* Make the button an inline block element */
+    margin-top: 10px; /* Add spacing above the button */
+    font-weight: 600;
+    font-size: 20px;
+}
+.read_bt a:hover {
+    background-color: #0f35bd; /* Change the background color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .coffee_taital {
+        font-size: 30px; /* Adjust title font size for smaller screens */
+    }
+    
+    .types_text {
+        font-size: 20px; /* Adjust coffee type font size for smaller screens */
+    }
+    
+    .looking_text {
+        font-size: 14px; /* Adjust coffee description font size for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .coffee_section {
+        padding: 30px 0; /* Adjust padding for smaller screens */
+    }
+    
+    .bulit_icon img {
+        max-width: 80px; /* Adjust icon size for smaller screens */
+    }
+}
+
+
+/* Base Styles for the footer section */
+.footer_section {
+    background-color: #333;
+    color: #f0e2e2;
+    padding: 50px;
+    text-align: center;
+    margin-top: 1vh;
+   
+}
+
+.address_text {
+    font-size: 24px;
+}
+
+.footer_text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.location_text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.location_text ul li {
+    margin-top: 10px;
+}
+
+.location_text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.location_text i {
+    margin-right: 10px;
+}
+
+.update_mail {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    background-color: #444;
+    color: #fff;
+}
+
+.subscribe_bt img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer_section {
+        padding: 30px;
+    }
+    
+    .address_text {
+        font-size: 20px;
+    }
+    
+    .footer_text {
+        font-size: 14px;
+    }
+    
+    .update_mail {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer_section {
+        padding: 20px;
+    }
+    
+    .address_text {
+        font-size: 18px;
+    }
+    
+    .footer_text {
+        font-size: 12px;
+    }
+    
+    .update_mail {
+        font-size: 12px;
+    }
+}
+
+
+/* Base Styles */
+.copyright_section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.copyright_text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_social_icon ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_social_icon ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .col-lg-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .footer_social_icon ul {
+        text-align: center;
+    }
+    
+    .footer_social_icon ul li {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .copyright_text {
+        text-align: center;
+    }
+}
