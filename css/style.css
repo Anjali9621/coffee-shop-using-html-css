@@ -76,7 +76,7 @@
     margin-right: 5px; /* Add spacing to the right of the user icon */
 }
 /* Responsive Styles */
-@media (max-width: 992px) {
+@media (min-width: 767px) {
     .navbar-nav {
         margin-top: 0; /* Remove margin on smaller screens */
     }
@@ -90,7 +90,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
     .navbar-toggler-icon {
         background-color: #2b87f0; /* Change toggler icon color on smaller screens */
     }
@@ -132,6 +132,7 @@
     width: 100%;
 }
 
+
 /* Styles for the coffee item columns */
 .col-lg-3 {
     padding: 10px; /* Add spacing between columns */
@@ -169,34 +170,8 @@
     font-size: 20px;
 }
 .read_bt a:hover {
-    background-color: #0f35bd; /* Change the background color on hover */
+    background-color: #0f35bd; 
 }
-
-/* Responsive Styles */
-@media (max-width: 992px) {
-    .coffee_taital {
-        font-size: 30px; /* Adjust title font size for smaller screens */
-    }
-    
-    .types_text {
-        font-size: 20px; /* Adjust coffee type font size for smaller screens */
-    }
-    
-    .looking_text {
-        font-size: 14px; /* Adjust coffee description font size for smaller screens */
-    }
-}
-
-@media (max-width: 768px) {
-    .coffee_section {
-        padding: 30px 0; /* Adjust padding for smaller screens */
-    }
-    
-    .bulit_icon img {
-        max-width: 500px; /* Adjust icon size for smaller screens */
-    }
-}
-
 
 /* Base Styles for the footer section */
 .footer_section {
@@ -251,7 +226,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .footer_section {
         padding: 30px;
     }
@@ -269,7 +244,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1366px) {
     .footer_section {
         padding: 20px;
     }
@@ -326,7 +301,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1366px) {
     .copyright_text {
         text-align: center;
     }
