@@ -49,14 +49,52 @@
         font-weight: 600;
         color: rgb(71, 5, 5);
         text-align: center;
+
       
       }
-      /* .coffee_section_2{
-        margin-top: 5px;
-        background-color: antiquewhite;
-        padding: 15px;
-        height: 550px;
-      } */
+     
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.menu .box-container .box{
+    padding: 10rem;
+    text-align: center;
+   background-color: rgb(48, 25, 3);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-top: 2px;
+}
+
+.menu .box-container .box img{
+    height: 15rem;
+    width: 15rem;
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: .5rem 0;
+}
+
+.menu .box-container .box:hover{
+    background-color: rgb(151, 92, 53);
+}
+
+.menu .box-container .box:hover > *{
+    color: black;
+}
+
+/* end */
       
     </style>
     <!-- header section start -->
@@ -114,7 +152,7 @@
         </nav>
   </section>
     <!-- header section end -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -175,7 +213,58 @@
          </div>
       </div>
    </div>
-   
+    -->
+
+
+
+    <section class="menu" id="menu">
+
+      <h1 class="text-center">TYPES OF COFFEES</h1>
+
+      <div class="box-container">
+
+          <div class="box">
+              <img src="images/img-2.png" alt="" style="border-radius: 50%;">
+              <h3>Classic Cofffee Espresso</h3>
+              <div class="price">$10</div>
+          </div>
+
+          <div class="box">
+              <img src="images/menu-2.png" alt="">
+              <h3>Classic Cofffee Espresso</h3>
+              <div class="price">$10</div>
+          </div>
+
+          <div class="box">
+              <img src="images/menu-3.png" alt="">
+              <h3>Classic Cofffee Espresso</h3>
+              <div class="price">$10</div>
+          </div>
+
+          <div class="box">
+              <img src="images/menu-4.png" alt="">
+              <h3>Classic Cofffee Espresso</h3>
+              <div class="price">$10</div>
+          </div>
+
+          <div class="box">
+              <img src="images/menu-5.png" alt="">
+              <h3>Classic Cofffee Espresso</h3>
+              <div class="price">$10</div>
+          </div>
+
+          <div class="box">
+              <img src="images/menu-6.png" alt="">
+              <h3>Classic Cofffee Espresso</h3>
+              <div class="price">$10</div>
+          </div>
+
+      </div>
+
+  </section>
+
+
+
     <!-- footer section start -->
 
     <div class="footer_section p-5">
@@ -228,8 +317,8 @@
         <div class="row">
           <div class="col-lg-6 col-sm-12">
             <p class="copyright_text">
-              2020 All Rights Reserved. Design by
-              <a href="https://html.design">Free Html Templates</a>
+              2023 All Rights Reserved. Design by
+              <a href="#">Anjali Sharma</a>
             </p>
           </div>
           <div class="col-lg-6 col-sm-12">
