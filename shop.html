@@ -42,21 +42,31 @@
   </head>
   <body>
     <style>
-      #about {
-        background-color: antiquewhite;
-      }
+      #coffeeshop{
+
+background-color: antiquewhite;
+}
       .text-center {
         font-weight: 600;
         color: rgb(71, 5, 5);
         text-align: center;
       
       }
-      .coffee_section{
+      .col-lg-3 {
         margin-top: 5px;
-        background-color: antiquewhite;
         padding: 10px;
         height: 550px;
       }
+      .row{
+        display: flex;
+        text-align: center;
+        text-align: center;
+      }
+
+      .container-blog{
+      background-color: brown;
+      border-radius: 10px;
+    }
     </style>
     <!-- header section start -->
     <section class="header_section ">
@@ -94,14 +104,14 @@
                       <ul>
                           <li>  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> </li>
                         <li>
-                          <a href="#"
+                          <a href="login.html"
                             ><span class="user_icon"
                               ><i class="fa fa-user" aria-hidden="true"></i></span
                             >LOGIN</a
                           >
                         </li> 
                         <li>
-                          <a href="#"
+                          <a href="singin.html"
                             ><span class="user_icon"
                               ><i class="fa fa-user" aria-hidden="true"></i></span
                             >SINGIN</a
@@ -113,42 +123,38 @@
         </nav>
   </section>
     <!-- header section end -->
-       <div class="coffee_section_2">
-         <div id="main_slider" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container-fluid text-center">
-                     <div class="row mt-1">
-                        <div class="col-lg-3 col-md-6 ">
-                           <div class="coffee_img"><img src="images/img-1.png"></div>
-                           <h3 class="types_text">TYPES OF COFFEE</h3>
-                           <p class="looking_text">looking at its layout. The point of</p>
-                           <div class="read_bt"><a href="#">Read More</a></div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                           <div class="coffee_img"><img src="images/img-2.png"></div>
-                           <h3 class="types_text">BEAN VARIETIES</h3>
-                           <p class="looking_text">looking at its layout. The point of</p>
-                           <div class="read_bt"><a href="#">Read More</a></div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                           <div class="coffee_img"><img src="images/img-3.png"></div>
-                           <h3 class="types_text">COFFEE & PASTRY</h3>
-                           <p class="looking_text">looking at its layout. The point of</p>
-                           <div class="read_bt"><a href="#">Read More</a></div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                           <div class="coffee_img"><img src="images/img-4.png"></div>
-                           <h3 class="types_text">COFFEE TO GO</h3>
-                           <p class="looking_text">looking at its layout. The point of</p>
-                           <div class="read_bt"><a href="#">Read More</a></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-             </div>
-           </div>
-         </div>
+    <section id="coffeeshop" class="mt-2 p-5">
+      <h1 class="text-center">Coffee Shops</h1>
+      <div class="container-blog shadow p-5 mt-4 text-light">
+        <div class="row mt-1">
+          <div class="col-lg-3 col-md-6 ">
+             <div class="coffee_img"><img src="images/img-1.png"></div>
+             <h3 class="types_text">TYPES OF COFFEE</h3>
+             <p class="looking_text">looking at its layout. The point of</p>
+             <div class="read_bt"><a href="#">Read More</a></div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+             <div class="coffee_img"><img src="images/img-2.png"></div>
+             <h3 class="types_text">BEAN VARIETIES</h3>
+             <p class="looking_text">looking at its layout. The point of</p>
+             <div class="read_bt"><a href="#">Read More</a></div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+             <div class="coffee_img"><img src="images/img-3.png"></div>
+             <h3 class="types_text">COFFEE & PASTRY</h3>
+             <p class="looking_text">looking at its layout. The point of</p>
+             <div class="read_bt"><a href="#">Read More</a></div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+             <div class="coffee_img"><img src="images/img-4.png"></div>
+             <h3 class="types_text">COFFEE TO GO</h3>
+             <p class="looking_text">looking at its layout. The point of</p>
+             <div class="read_bt"><a href="#">Read More</a></div>
+          </div>
+       </div>
+      </div>
+    </section>   
+
     <!-- footer section start -->
 
     <div class="footer_section p-5">

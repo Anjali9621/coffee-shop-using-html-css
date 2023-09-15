@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>About Us</title>
+    <title>Singin</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -42,19 +42,27 @@
   </head>
   <body>
     <style>
-      .about {
-        background-color: antiquewhite;
-      }
-      .text-center {
-        font-weight: 600;
-        color: rgb(71, 5, 5);
-        text-align: center;
-      
-      }
-      .container-blog{
+     
+     #singin{
+
+background-color: antiquewhite;
+}
+     .col-sm-2{
+      font-size: 25px;
+     }
+     .btn{
+      height: 50px;
+      width: 130px;
+      font-weight: 600;
+      font-size: 25px;
+     }
+     
+
+     .container-blog{
       background-color: brown;
       border-radius: 10px;
     }
+      
     </style>
     <!-- header section start -->
     <section class="header_section ">
@@ -110,30 +118,74 @@
           </div>
         </nav>
   </section>
-    <!-- header section end -->
-    <section class="about mt-2">
-      <div class="container-fluid text-center p-5 ">
-        <h1 class="text-center">About Us</h1>
-        <div class="container-blog  text-light shadow mt-3">
-          <div class="row">
-            <div class="col p-5">
-              <h1>COFFEE</h1>
-              <p style="text-align: justify;">
-                Coffee was introduced into one European country after another throughout the 16th and 17th centuries. Many accounts are recorded of its prohibition or approval as a religious, political, and medical potion. By the end of the 17th century, coffeehouses were flourishing across Britain, the British colonies in America, and continental Europe.
-              </p>
-              <p style="text-align: justify;">
-                coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plants of African origin. Coffee is one of the three most popular beverages in the world (alongside water and tea) and one of the most profitable international commodities. Though coffee is the basis for an endless array of beverages, its popularity is mainly attributed to its invigorating effect, which is produced by caffeine, an alkaloid present in coffee.!
-              </p>
-              <button class="btn btn-primary">READ MORE</button>
+
+  <!--header section end-->
+
+  <!-- Login section start -->
+  <section id="singin" class="mt-1 p-5">
+    <h1 class="text-center">Singin</h1>
+    <div class="container-blog shadow p-5 mt-4 text-light">
+      <div class="row">
+        <div class="container-fluid text-center p-5 ">
+          <div class="row text-center mt-4">
+            <div class="mb-3 row mt-2" >
+              <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text"  class="form-control" id="inputName" placeholder="Enter Your Name">
+              </div>
             </div>
-            <div class="col p-5">
-              <img src="images/hotcoffee.png" alt="" class="w-50 h-100 shadow" />
+      
+            <div class="mb-3 row mt-2" >
+              <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email"  class="form-control" id="inputEmail" placeholder="Enter Your Email">
+              </div>
             </div>
+      
+            <div class="mb-3 row mt-2" >
+              <label for="inputDateOfBirth"class="col-sm-2 col-form-label">DOB</label>
+              <div class="col-sm-10">
+              <input type="date" class="form-control" id="inputAddress" placeholder="Enter Your DOB">
+            </div>
+          </div>
+      
+            <div class="mb-3 row mt-2" >
+              <label for="inputNumber" class="col-sm-2 col-form-label">Number</label>
+              <div class="col-sm-10">
+                <input type="number"  class="form-control" id="inputNumber" placeholder="Enter Your Number">
+              </div>
+            </div>
+      
+            <div class="mb-3 row mt-2" >
+              <label for="inputAddress"class="col-sm-2 col-form-label">Address</label>
+              <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Enter Your Address">
+            </div>
+          </div>
+      
+      
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Enter Your Password">
+              </div>
+            </div>
+            
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        
+        
+        
+        
           </div>
         </div>
       </div>
-    </section>
-
+    </div>
+  </section>
+  <!-- Login section end -->
+  
     <!-- footer section start -->
 
     <div class="footer_section p-5">
